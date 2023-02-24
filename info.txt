@@ -1,0 +1,74 @@
+1. HTML
+2. CSS
+3. Bootstrap
+
+4. JavaScript Baisc
+5. Adv JS - ES - 6 (v 2022)
+    a. Arrow Fn
+    b. Spread Ope
+    c. Destructuring in JS
+
+
+Arrow Function
+
+let demo = (a, b)=>{
+
+}
+
+let demo = a =>{
+
+}
+
+let demo = a =>{
+    return a*a;
+}
+
+let demo = (a, b) => a*b;
+
+
+let obj = { name : rohit, age : 25 };
+
+let a = obj.name;
+let b = obj.age;
+
+let {name, age} = obj;
+
+
+let city = indore;
+let fee = 5000;
+
+let obj = { city , fee, gender : "male"}
+
+let obj2 = {...obj, city : mumbai };  ------ copy
+
+let obj2 = obj;   --- refrence
+
+
+
+let user = { name : "rohit", age : 25};
+let user2 = {...user, name : "amar"};
+
+
+let fn = ()=>{
+    return [10, ()=>{
+
+    }]
+}
+
+
+
+
+let [a, b] = fn();
+
+
+import and export
+
+
+let a = aditi;
+let x = "indore";
+export {b} = a;
+export default x;
+
+
+import { b as name } from 'path'
+import myvar from 'path'
